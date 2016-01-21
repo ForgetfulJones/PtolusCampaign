@@ -1,0 +1,39 @@
+# Class Name			Hit Dice	Type		Abbreviation	Max Level	Source Page	Combat bonus														Modify VAR	Bonus
+CLASS:Pit Fiend Favored Soul	HD:8		TYPE:Base.PC	FACT:ABB|FvSl	MAXLEVEL:20	SOURCEPAGE:6	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0				BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+# Class Name			Skill Pts/Lvl	Class Skill
+CLASS:Pit Fiend Favored Soul	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Jump|Knowledge (arcana)|TYPE=Profession|Sense Motive|Spellcraft
+# Class Name			Spell Stat		Spell Stat Bonus		Spell Type		Memorize	Caster level				Bonus DC						Use Spell List
+CLASS:Pit Fiend Favored Soul	SPELLSTAT:CHA		BONUSSPELLSTAT:CHA		FACT:SPELLTYPE|Divine	MEMORIZE:NO	BONUS:CASTERLEVEL|Favored Soul|CL	BONUS:DC|CLASS.Favored Soul|(WIS-CHA)			SPELLLIST:1|Cleric
+
+###Block:
+1	ABILITY:Pit Fiend Favored Soul Class Feature|AUTOMATIC|Pit Fiend Favored Soul ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PitFiendFavoredSoulWeaponandArmorProficiency
+3	ABILITY:Pit Fiend Favored Soul Class Feature|AUTOMATIC|Pit Fiend Favored Soul ~ Weapon Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.PitFiendFavoredSoulWeaponFocus
+5	ABILITY:Pit Fiend Favored Soul Class Feature|AUTOMATIC|Pit Fiend Favored Soul ~ Energy Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.PitFiendFavoredSoulEnergyResistance						BONUS:ABILITYPOOL|Favored Soul Resistance|1
+10																											BONUS:ABILITYPOOL|Favored Soul Resistance|1
+12	ABILITY:Pit Fiend Favored Soul Class Feature|AUTOMATIC|Pit Fiend Favored Soul ~ Weapon Specialization|!PREABILITY:1,CATEGORY=ACF,TYPE.PitFiendFavoredSoulWeaponSpecialization
+15																											BONUS:ABILITYPOOL|Favored Soul Resistance|1
+17	ABILITY:Pit Fiend Favored Soul Class Feature|AUTOMATIC|Pit Fiend Favored Soul ~ Wings|!PREABILITY:1,CATEGORY=ACF,TYPE.PitFiendFavoredSoulWings
+20	ABILITY:Pit Fiend Favored Soul Class Feature|AUTOMATIC|Pit Fiend Favored Soul ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.PitFiendFavoredSoulDamageReduction
+
+###Block: Level progression
+1	CAST:5,3				KNOWN:4,3
+2	CAST:6,4				KNOWN:5,3
+3	CAST:6,5				KNOWN:5,4
+4	CAST:6,6,3				KNOWN:6,4,3
+5	CAST:6,6,4				KNOWN:6,5,3
+6	CAST:6,6,5,3				KNOWN:7,5,4,3
+7	CAST:6,6,6,4				KNOWN:7,6,4,3
+8	CAST:6,6,6,5,3				KNOWN:8,6,5,4,3
+9	CAST:6,6,6,6,4				KNOWN:8,6,5,4,3
+10	CAST:6,6,6,6,5,3			KNOWN:9,6,6,5,4,3
+11	CAST:6,6,6,6,6,4			KNOWN:9,6,6,5,4,3
+12	CAST:6,6,6,6,6,5,3			KNOWN:9,6,6,6,5,4,3
+13	CAST:6,6,6,6,6,6,4			KNOWN:9,6,6,6,5,4,3
+14	CAST:6,6,6,6,6,6,5,3			KNOWN:9,6,6,6,6,5,4,3
+15	CAST:6,6,6,6,6,6,6,4			KNOWN:9,6,6,6,6,5,4,3
+16	CAST:6,6,6,6,6,6,6,5,3			KNOWN:9,6,6,6,6,6,5,4,3
+17	CAST:6,6,6,6,6,6,6,6,4			KNOWN:9,6,6,6,6,6,5,4,3
+18	CAST:6,6,6,6,6,6,6,5,4,3		KNOWN:9,6,6,6,6,6,6,5,4,3
+19	CAST:6,6,6,6,6,6,6,6,6,4		KNOWN:9,6,6,6,6,6,6,5,4,3
+20	CAST:6,6,6,6,6,6,6,6,6,6		KNOWN:9,6,6,6,6,6,6,6,5,4
+

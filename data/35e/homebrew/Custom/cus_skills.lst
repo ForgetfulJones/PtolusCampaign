@@ -1,0 +1,16 @@
+# Skill Name					Unique Key				Key Stat	Untrained?		Skill Penalty?	Classes	Type														Visible		Prohibited Skill		Source Page		Modify VAR								Temporary effect description																Temporary Bonus
+Craft (Machines)
+	KEYSTAT:INT
+	USEUNTRAINED:NO
+	TYPE:Intelligence.Craft.Standard.Base.Craft (Machines)
+
+Knowledge (Machines)
+	KEYSTAT:INT
+	USEUNTRAINED:NO
+	TYPE:Intelligence.Knowledge.Standard.Base.Knowledge(Machines)
+
+Profession (Engineer)
+	KEYSTAT:WIS
+	USEUNTRAINED:NO
+	TYPE:Wisdom.Profession.Standard.Base.Profession(Engineer)
+

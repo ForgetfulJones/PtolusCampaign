@@ -1,0 +1,137 @@
+###Block: Sub Races
+#	(Need to review the subraces for accurate bonuses)
+CATEGORY=Internal|Default.MOD	DEFINE:RemoveLangLitorian|0
+# Dwarf Ability Name	Unique Key	Category of Ability	Type	Multiple Requirements	Innate Spells	Template	Auto Armor Prof	Ability	Combat bonus	Bonus DC	Bonus to skill	Stat bonus	Modify VAR	Spell Res.	Cost	Source Page	Bonus
+
+Grailwarden
+	KEY:Dwarf ~ Grailwarden
+	CATEGORY:Internal
+	TYPE:DwarfSubrace.AltSubraceChoice
+	PREMULT:1,[PREABILITY:1,CATEGORY=Internal,Dwarf ~ Grailwarden],[!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice]
+	TEMPLATE:Grailwarden Dwarf
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Darkvision|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfRacialVision
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Weapon Familiarity|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfWeaponFamiliarity
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Stonecunning|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfStonecunning
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Stability|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfStability
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Poison Save Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfPoisonSaveBonus
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Spell Save Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfSpellSaveBonus
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Attack Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfAttackBonus
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Dodge Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfDodgeBonus
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Appraise Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfAppraiseBonus
+	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Craft Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfCraftBonus
+	ABILITY:Internal|AUTOMATIC|Language ~ Auto (Dwarf)|!PREABILITY:1,CATEGORY=Internal,TYPE.AutoLangReplace
+	ABILITY:Internal|AUTOMATIC|Language ~ Bonus (Dwarf)|!PREABILITY:1,CATEGORY=Internal,TYPE.BonusLangReplace
+	BONUS:SKILL|Craft (Alchemy)|2|TYPE=Racial
+	BONUS:SKILL|Craft (Machines)|2|TYPE=Racial
+	BONUS:SKILL|Knowledge (Machines)|2|TYPE=Racial
+	BONUS:SKILL|Profession (Engineer)|2|TYPE=Racial
+	COST:0
+
+#Hill					
+#	KEY:Dwarf ~ Hill
+#	CATEGORY:Internal
+#	TYPE:DwarfSubrace.DwarfBase
+#	TEMPLATE:Hill Dwarf
+#	ABILITY:Internal|AUTOMATIC|Favored Class ~ Fighter|PREVAREQ:RemoveDefaultFavoredClass,0
+#	ABILITY:Internal|AUTOMATIC|Language ~ Auto (Dwarf)|!PREABILITY:1,CATEGORY=Internal,TYPE.AutoLangReplace
+#	ABILITY:Internal|AUTOMATIC|Language ~ Bonus (Dwarf)|!PREABILITY:1,CATEGORY=Internal,TYPE.BonusLangReplace
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Darkvision|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfRacialVision
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Weapon Familiarity|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfWeaponFamiliarity
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Stonecunning|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfStonecunning
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Stability|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfStability
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Poison Save Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfPoisonSaveBonus
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Spell Save Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfSpellSaveBonus
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Attack Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfAttackBonus
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Dodge Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfDodgeBonus
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Appraise Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfAppraiseBonus
+#	ABILITY:Dwarf Race Trait|AUTOMATIC|Dwarf ~ Craft Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.DwarfCraftBonus
+#	BONUS:STAT|CON|2|TYPE=Racial
+#	BONUS:STAT|CHA|-2|TYPE=Racial
+Litorian
+	KEY:Litorian ~ Base
+	CATEGORY:Internal
+	TYPE:LitorianSubrace.LitorianBase
+	ABILITY:Internal|AUTOMATIC|Favored Class ~ Ranger|PREVAREQ:RemoveDefaultFavoredClass,0
+	ABILITY:Internal|AUTOMATIC|Language ~ Auto (Litorian)|!PREABILITY:1,CATEGORY=Internal,TYPE.AutoLangReplace
+	ABILITY:Internal|AUTOMATIC|Language ~ Bonus (Litorian)|!PREABILITY:1,CATEGORY=Internal,TYPE.BonusLangReplace
+	ABILITY:Litorian Race Trait|AUTOMATIC|Litorian ~ Scent|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.LitorianRacialScent
+	ABILITY:Litorian Race Trait|AUTOMATIC|Litorian ~ Low-light Vision|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.LitorianLowLightVision
+	ABILITY:Litorian Race Trait|AUTOMATIC|Litorian ~ Skill Bonus|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DisableRacialTraits,TYPE.LitorianSkillBonus
+	BONUS:STAT|STR|2|TYPE=Racial
+	BONUS:STAT|CON|2|TYPE=Racial
+	BONUS:STAT|DEX|2|TYPE=Racial
+	BONUS:VAR|LevelAdjustment|1
+
+
+
+
+# Pit Fiend Favored Soul
+Weapon and Armor Proficiency	KEY:Pit Fiend Favored Soul ~ Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:Pit Fiend Favored Soul Class Feature.SpecialQuality			DESC:Pit Fiend Favored souls are proficient with all simple weapons, with light and medium armor, and with shields (except tower shields). A favored soul is also proficient with his diety's favored weapon.  Although a favored soul is not proficient with heavy armor, wearing it does not interfere with her spellcasting.	AUTO:ARMORPROF|ARMORTYPE=Light|ARMORTYPE=Medium	AUTO:SHIELDPROF|SHIELDTYPE=Buckler|SHIELDTYPE=Heavy|SHIELDTYPE=Light	AUTO:WEAPONPROF|DEITYWEAPONS	AUTO:WEAPONPROF|TYPE=Simple	SOURCEPAGE:p.8
+Weapon Focus			KEY:Pit Fiend Favored Soul ~ Weapon Focus				CATEGORY:Special Ability	TYPE:Pit Fiend Favored Soul Class Feature.SpecialQuality			DESC:At 3rd level, a favored soul gains the Weapon Focus feat with her deity's favored weapon. If the character already has that feat, she can choose a different one.	ADD:ABILITY|FEAT|VIRTUAL|Weapon Focus ~ FS,Weapon Focus Bonus	SOURCEPAGE:p.8
+Energy Resistance			KEY:Pit Fiend Favored Soul ~ Energy Resistance			CATEGORY:Special Ability	TYPE:Pit Fiend Favored Soul Class Feature.SpecialQuality.Extraordinary	DESC:At 5th level, a favored soul chooses an energy type and gains resistance 10 against that type. At 10th level and 15th level, the character gains resistance 10 against another energy type of her choosing.	SOURCEPAGE:p.8
+Weapon Specialization		KEY:Pit Fiend Favored Soul ~ Weapon Specialization		CATEGORY:Special Ability	TYPE:Pit Fiend Favored Soul Class Feature.SpecialQuality			DESC:At 12th level, a favored soul gains the Weapon Specialization feat with her deity's favored weapon. If she already has that feat, she can choose a different one.	ADD:ABILITY|FEAT|VIRTUAL|Weapon Specialization ~ FS,Weapon Specialization Bonus	SOURCEPAGE:p.10
+Wings					KEY:Pit Fiend Favored Soul ~ Wings					CATEGORY:Special Ability	TYPE:Pit Fiend Favored Soul Class Feature.SpecialQuality.Extraordinary	DESC:At 17th level, a favored soul gains wings and can fly at a speed of 60 feet (good maneuverability). A good-aligned favored soul grows feathered wings, and an evil-aligned favored soul gains batlike wings. A favored soul who is neither good nor evil may choose either type of wings.	BONUS:MOVEADD|TYPE.Fly|60	BONUS:VAR|Maneuverability|3	SOURCEPAGE:p.10
+Damage Reduction			KEY:Pit Fiend Favored Soul ~ Damage Reduction			CATEGORY:Special Ability	TYPE:Pit Fiend Favored Soul Class Feature.SpecialQuality.Supernatural	DESC:A 20th-level favored soul gains damage reduction. If the character is lawful-aligned, the damage reduction is 10/silver. If the character is chaotic-aligned, the damage is 10/cold iron. A favored soul who is neither lawful nor chaotic may choose either type of damage reduction.	DR:10/silver|PREALIGN:LG,LN,LE,NG,TN	DR:10/cold iron|PREALIGN:CG,CN,CE,NE	SOURCEPAGE:p.10
+
+###Block: Favored Soul Energy Resistances
+# Ability Name	Unique Key	Category of Ability	Type	Ability	Modify VAR	Source Page	Aspects
+Acid Resistance		KEY:Pit Fiend Favored Soul ~ Acid Resistance		CATEGORY:Special Ability	TYPE:Pit Fiend Favored SoulResistanceType.SpecialQuality.Extraordinary	ABILITY:Special Ability|AUTOMATIC|Resistance to Acid		BONUS:VAR|AcidResistanceBonus|10	SOURCEPAGE:p.8	ASPECT:NAME|Acid Resistance %1|AcidResistanceBonus
+Cold Resistance		KEY:Pit Fiend Favored Soul ~ Cold Resistance		CATEGORY:Special Ability	TYPE:Pit Fiend Favored SoulResistanceType.SpecialQuality.Extraordinary	ABILITY:Special Ability|AUTOMATIC|Resistance to Cold		BONUS:VAR|ColdResistanceBonus|10	SOURCEPAGE:p.8	ASPECT:NAME|Cold Resistance %1|ColdResistanceBonus
+Electricity Resistance	KEY:Pit Fiend Favored Soul ~ Electricity Resistance	CATEGORY:Special Ability	TYPE:Pit Fiend Favored SoulResistanceType.SpecialQuality.Extraordinary	ABILITY:Special Ability|AUTOMATIC|Resistance to Electricity	BONUS:VAR|ElectricityResistanceBonus|10	SOURCEPAGE:p.8	ASPECT:NAME|Electricity Resistance %1|ElectricityResistanceBonus
+Fire Resistance		KEY:Pit Fiend Favored Soul ~ Fire Resistance		CATEGORY:Special Ability	TYPE:Pit Fiend Favored SoulResistanceType.SpecialQuality.Extraordinary	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire		BONUS:VAR|FireResistanceBonus|10	SOURCEPAGE:p.8	ASPECT:NAME|Fire Resistance %1|FireResistanceBonus
+Sonic Resistance		KEY:Pit Fiend Favored Soul ~ Sonic Resistance		CATEGORY:Special Ability	TYPE:Pit Fiend Favored SoulResistanceType.SpecialQuality.Extraordinary	ABILITY:Special Ability|AUTOMATIC|Resistance to Sonic		BONUS:VAR|SonicResistanceBonus|10	SOURCEPAGE:p.8	ASPECT:NAME|Sonic Resistance %1|SonicResistanceBonus
+###Block: Grants Default Base Race Auto Languages
+
+# Ability Name	Category of Ability	Type	Ability
+Language ~ Auto (Item Familiar)		CATEGORY:Internal	TYPE:DefaultAutoLang	ABILITY:Language|AUTOMATIC|Common|PREVAREQ:RemoveLangCommon,0
+Language ~ Auto (Litorian)			CATEGORY:Internal	TYPE:DefaultAutoLang	ABILITY:Language|AUTOMATIC|Common|PREVAREQ:RemoveLangCommon,0	ABILITY:Language|AUTOMATIC|Litorian|PREVAREQ:RemoveLangLitorian,0
+
+###Block: Grants Default Base Race Bonus Languages
+# Ability Name 				Category of Ability	Type				Template
+Language ~ Bonus (Item Familiar)	CATEGORY:Internal		TYPE:DefaultBonusLang	TEMPLATE:Language ~ Bonus (Item Familiar)
+Language ~ Bonus (Litorian)		CATEGORY:Internal		TYPE:DefaultBonusLang	TEMPLATE:Language ~ Bonus (Litorian)
+
+###Block: Languages
+# Ability Name	Category of Ability	Type			Auto Language
+Litorian		CATEGORY:Language		TYPE:Language	AUTO:LANG|Litorian
+
+
+###Block: Subrace Selection
+# Item Familiar	
+# Ability Name	Unique Key	Category of Ability	Type	Visible	Template	Ability	Stat bonus
+Item Familiar	KEY:Item Familiar ~ Base	CATEGORY:Internal	TYPE:Construct	ABILITY:Internal|AUTOMATIC|Language ~ Auto (Item Familiar)|!PREABILITY:1,CATEGORY=Internal,TYPE.AutoLangReplace	ABILITY:Internal|AUTOMATIC|Language ~ Bonus (Item Familiar)|!PREABILITY:1,CATEGORY=Internal,TYPE.BonusLangReplace
+
+###Block:
+# Ability Name		Category of Ability	Ability																																																																											Ignore Encumberance
+Race Traits ~ Litorian	CATEGORY:Internal		ABILITY:Litorian Subrace|AUTOMATIC|Litorian ~ Base|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice	ABILITY:Special Ability|AUTOMATIC|Litorian Racial Traits|PREABILITY:1,CATEGORY=Internal,TYPE.LitorianSubrace
+
+###Block: Elf - Abilities
+# Ability Name		Unique Key					Category of Ability		Type											Visible					Description																																																																									Auto Feat																										Bonus to skill						Modify VAR				Source Page		Aspects
+
+Low-Light Vision		KEY:Litorian ~ Low-Light Vision	CATEGORY:Special Ability	TYPE:Litorian Race Trait.Race Trait						VISIBLE:DISPLAY	DESC:A litorian can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.																																																																											BONUS:VAR|HasLowLightVision|1	SOURCEPAGE:p.21(55)
+Scent				KEY:Litorian ~ Scent			CATEGORY:Special Ability	TYPE:Litorian Race Trait.Race Trait						VISIBLE:DISPLAY	DESC:Lit Abilities This special quality allows a creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do familiar sights. &nl;The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range. &nl;When a creature detects a scent, the exact location of the source is not revealed—only its presence somewhere within range. The creature can take a move action to note the direction of the scent. Whenever the creature comes within 5 feet of the source, the creature pinpoints the source’s location. &nl;A creature with the Track feat and the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry’s odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Track feat. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.	SOURCEPAGE:P.21(55)
+Skill Bonus			KEY:Litorian ~ Skill Bonus		CATEGORY:Special Ability	TYPE:Litorian Race Trait.Race Trait						VISIBLE:DISPLAY	DESC: +2 Bonus on Intimidate, Search, Spot, Listen, and Survival checks.																																																																																												BONUS:SKILL|Intimidate,Listen,Search,Spot,Survival|2|TYPE=Racial			SOURCEPAGE:p21(55)
+
+
+# Ability Name		Unique Key			Category of Ability		Type						Visible		Description
+#Dwarf Racial Traits	KEY:Dwarf Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	DESC:Dwarves can see in the dark up to %1 feet. Darkvision is black and white only, but it is otherwise like normal sight, and dwarves can function just fine with no light at all.|DarkvisionRange|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Darkvision	DESC:&nl;Dwarves may treat dwarven waraxes and dwarven urgroshes as martial weapons, rather than exotic weapons.|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Weapon Familiarity	DESC:&nl;Stonecunning: This ability grants a dwarf a +%1 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn't stone but that is disguised as stone also counts as unusual stonework. A dwarf who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a dwarf can use the Search skill to find stonework traps as a rogue can. A dwarf can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.|StonecunningSearchBonus|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Stonecunning	DESC:&nl;Stability: +4 bonus on ability checks made to resist being bull rushed or tripped when standing on the ground (but not when climbing, flying, riding, or otherwise not standing firmly on the ground).|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Stability	DESC:&nl;+%1 racial bonus on saving throws against poison|DwarfPoisonSaveBonus|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Poison Save Bonus	DESC:&nl;+%1 racial bonus on saving throws against spells and spell-like effects|DwarfSpellSaveBonus|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Spell Save Bonus	DESC:&nl;+%1 racial bonus on attack rolls against orcs and goblinoids|DwarfRacialCombatBonus|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Attack Bonus	DESC:&nl;+%1 Dodge bonus to Armor Class against monsters of the giant type|DwarfDodgeGiantBonus|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Dodge Bonus	DESC:&nl;+%1 racial bonus on Appraise checks that are related to stone or metal items.|DwarfAppraiseSkillBonus|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Appraise Bonus	DESC:&nl;+%1 racial bonus on Craft checks that are related to stone or metal.|DwarfCraftSkillBonus|PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Craft Bonus
+#Elf Racial Traits
+#	KEY:Elf Racial Traits
+#	CATEGORY:Special Ability
+#	TYPE:SpecialQuality.Extraordinary
+#	VISIBLE:EXPORT	DESC:Immunity to magic sleep effects, and a +2 racial saving throw bonus against enchantment spells or effects.|PREABILITY:1,CATEGORY=Special Ability,Elf ~ Racial Immunity
+#	DESC:&nl;Low-light Vision: An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.|PREABILITY:1,CATEGORY=Special Ability,Elf ~ Low-Light Vision
+#	DESC:&nl;Weapon Proficiency: Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats. Elves esteem the arts of swordplay and archery, so all elves are familiar with these weapons.|PREABILITY:1,CATEGORY=Special Ability,Elf ~ Weapon Proficiency
+#	DESC:&nl;+2 racial bonus on Listen, Search, and Spot checks. An elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it. An elf's senses are so keen that she practically has a sixth sense about hidden portals.|PREABILITY:1,CATEGORY=Special Ability,Elf ~ Skill Bonus
+#	SOURCEPAGE:P.15
+
+# Ability Name		Unique Key				Category of Ability		Type						Visible		Description
+Litorian Racial Traits
+	KEY:Litorian Racial Traits
+	CATEGORY:Special Ability
+	TYPE:SpecialQuality.Extraordinary
+	VISIBLE:EXPORT
+	DESC:&nl;Low-light Vision: A litorian can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.|PREABILITY:1,CATEGORY=Special Ability,Litorian ~ Low-Light Vision
+	DESC:&nl;Scent: This special quality allows a creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do familiar sights. &nl;The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range. &nl;When a creature detects a scent, the exact location of the source is not revealed—only its presence somewhere within range. The creature can take a move action to note the direction of the scent. Whenever the creature comes within 5 feet of the source, the creature pinpoints the source’s location. &nl;A creature with the Track feat and the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry’s odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Track feat. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.|PREABILITY:1,CATEGORY=Special Ability,Litorian ~ Scent
+	DESC:&nl; +2 Bonus on Intimidate, Search, Spot, Listen, and Survival checks.|PREABILITY:1,CATEGORY=Special Ability,Litorian ~ Skill Bonus
+	SOURCEPAGE:P.21(55)

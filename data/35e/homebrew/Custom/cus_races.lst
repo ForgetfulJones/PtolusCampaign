@@ -1,0 +1,10 @@
+# Race Name	Skills/Level				Starting Feats	Size		Move	Face/Space	Reach		Ability								Nb Legs	Nb Hands	Main Race Type	Race Subtype		Type			Challenge Rating	Source Page		Bonus											Description																															SORTKEY
+#Human		XTRASKILLPTSPERLVL:ExtraSkillPoint	STARTFEATS:1	SIZE:M	MOVE:Walk,30	FACE:5,5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Human		LEGS:2	HANDS:2	RACETYPE:Humanoid	RACESUBTYPE:Human		TYPE:Humanoid.PC	CR:1/2		SOURCEPAGE:p.12												DESC:The Human race.																													SORTKEY:A1
+#centaur(aram)
+#cherubim
+Litorian	XTRASKILLPTSPERLVL:ExtraSkillPoint	STARTFEATS:1	SIZE:M	MOVE:Walk,30	FACE:5,5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Litorian	LEGS:2	HANDS:2	RACETYPE:Humanoid	RACESUBTYPE:Litorian		TYPE:Humanoid.PC	CR:1/2		SOURCEPAGE:p.20(55)											DESC:Litorians are bestial, honorbound hunters.																										SORTKEY:A8
+#harrow elf
+#Lizardfolk(assarai)
+#assimar
+#minotaur
+#tiefling

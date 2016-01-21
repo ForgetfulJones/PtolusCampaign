@@ -1,0 +1,11 @@
+# Ability Category					Visible			Editable?	Change Pool?		Category of Object		Type of Object					Specific choices list						Display Location
+
+ABILITYCATEGORY:Pit Fiend Favored Soul Class Feature	VISIBLE:QUALIFY		EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Pit fiend Favored Soul Class Feature									DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Pit fiend Favored Soul Resistance	VISIBLE:QUALIFY		EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Pit fiend Favored SoulResistanceType									DISPLAYLOCATION:Class Features
+
+# Subrace Support
+ABILITYCATEGORY:Litorian Subrace			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:LitorianSubrace												DISPLAYLOCATION:Race Traits
+
+###Block: Race Ability Pools
+# Ability Category			Visible		Editable?		Change Pool?	Category of Object		Type of Object									Plural description for UI	Display Location
+ABILITYCATEGORY:Litorian Race Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Litorian Race Trait.LitorianRaceTrait				PLURAL:Litorian Race Traits	DISPLAYLOCATION:Race Traits

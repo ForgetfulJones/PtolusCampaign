@@ -1,0 +1,9 @@
+###Block: Subrace Support
+# Dwarf
+Grailwarden	KEY:Grailwarden Dwarf	VISIBLE:NO	LEVELADJUSTMENT:0	FAVOREDCLASS:Fighter	SUBRACE:Grailwarden
+Litorian		KEY:Litorian		VISIBLE:NO
+###Block: Race Language Support
+# Template Name			Visible	Bonus Languages
+Language ~ Bonus (Item Familiar)	VISIBLE:NO	LANGBONUS:TYPE=Spoken
+
+Language ~ Bonus (Litorian)	VISIBLE:NO	LANGBONUS:Gnoll,Goblin,Orc

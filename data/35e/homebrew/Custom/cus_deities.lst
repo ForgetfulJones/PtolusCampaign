@@ -1,0 +1,322 @@
+# Deity Name	Domains	Description of Deity/Title	Deity Weapon	Align	Pantheon	Source Page	Type
+Akadi
+	DOMAINS:Air,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN
+#,Illusion
+	DESC:Akadi (F)
+	DEITYWEAP:Flail (Heavy)
+	ALIGN:TN
+	PANTHEON:Faerun
+	SOURCEPAGE:p.
+	TYPE:Greater
+Ahaar
+	DOMAINS:Air,Good,Protection
+	DESC:Lord of the Air An elemental sky god of some popularity.
+	ALIGN:CG
+	PANTHEON:Ptolus
+Aldinach
+	DOMAINS:Good
+#,Sleep
+#,Future
+	DESC:Goddess of the Moons Aldinach provides insight into the future on full-moon nights. Her worship is all but forgotten today.
+	ALIGN:NG
+	PANTHEON:Ptolus
+Ardaen
+#Domain should be light
+	DOMAINS:Sun
+	ALIGN:NG
+	DESC:Dead God of Light. Once a powerful elven god of light, Ardaen is dead, tricked and slain by evil gods (including Gorgoth-Lol).
+	PANTHEON:Ptolus
+Asche
+	DOMAINS:Knowledge,Protection
+#,Civilization
+	DESC:God of Cities, A major god of civilization and sophisticated living.
+	ALIGN:TN
+	PANTHEON:Ptolus
+Baalhazor
+	DOMAINS:Chaos,Evil
+#,Technology
+	DESC:Demon God of Technology. Originally one of the “Vested of the Galchutt,” this minor deity/demon lord is the lord of chaositech.
+	ALIGN:CE
+	PANTHEON:Ptolus
+Blurrah
+	DOMAINS:Good,Protection,Sun
+	DESC:Goddess of Comfort in Sadness. A very minor goddess turned to occasionally but rarely attracting lifetime followers.
+	ALIGN:CG
+	PANTHEON:Ptolus
+Castain
+	DOMAINS:Healing,Law,Protection
+	DESC:Old Prustan deity of life, supplanted by Lothian. No longer worshipped.
+	ALIGN:LG
+	PANTHEON:Ptolus
+Celestan
+	DOMAINS:Earth,Good,Protection
+	DESC:Lord of the Silver Moon. Celestan is the main elven deity. Ithildin, ithilnaur, and ithilirid (moonsilver) are said to all be his gifts to his people.
+	ALIGN:NG
+	PANTHEON:Ptolus
+Charlathan
+	DOMAINS:Chaos,Protection,War
+	DESC:God/Goddess of Retribution and Reward. This capricious god has few worshippers today. Offering alternatively banes and boons, the deity has both male and female aspects at different times.
+	ALIGN:CN
+	PANTHEON:Ptolus
+Danace
+	DOMAINS:Evil,Trickery
+	DESC:Master of the Thousand Pains. A god of torture, sadism, and masochism.
+	ALIGN:LE
+	PANTHEON:Ptolus
+The Demon Gods
+	DOMAINS:Chaos,Destruction,Evil
+	DESC:(Demogorgon, Orcus, countless others). This is a catch-all for all the many powerful demons (which may or may not be true gods) worshipped in small numbers throughout the lands.
+	ALIGN:CE
+	PANTHEON:Ptolus
+Destor
+	DOMAINS:Chaos,Evil,Luck
+	DESC:A god of cruel fate who sends the ill fortune that should befall his worshippers onto others. Destor’s religion was outlawed under the Empire.
+	ALIGN:CE
+	PANTHEON:Ptolus
+Engelan
+	DESC:God of the Present. Unconcerned with the past or the future, this religion is based on the immediate present and in living in the moment. Many halflings worship Engelan.
+	DOMAINS:Healing,Protection
+	ALIGN:TN
+	PANTHEON:Ptolus
+Father Claw
+	DESC:The Serpentine Lord. Worshippers of the draconic Father Claw, one of the oldest gods, are very rare in Ptolus.
+	ALIGN:CE
+	DOMAINS:Chaos,Destruction,Evil
+	PANTHEON:Ptolus
+The Fifty-Three Gods of Chance
+	ALIGN:CN
+	DOMAINS:Chaos,Luck,Trickery
+	DESC:A religion of chaos and randomness, but not directly tied to the chaos cults.
+	PANTHEON:Ptolus
+Frega
+	ALIGN:LG
+	DOMAINS:Animal,Good,Law
+	DESC:This very minor dwarf goddess is revered only by Stonelost dwarves. She watches over all animals, but in particular goats and boars.
+	PANTHEON:Ptolus
+Gaen
+	DESC:Goddess of Light, A popular and powerful religion. The Temple of Gaen is one of the largest and most impressive temples on a street of large and impressive temples. Gaen’s clerics are proactive and struggle against evil at every turn. Gaen is the sister of Mirresh.
+	ALIGN:LG
+	DOMAINS:Good,Law
+#,Light
+	PANTHEON:Ptolus
+Gorgoth-Lol
+	ALIGN:CE
+	DOMAINS:Chaos,Destruction,Evil
+	DESC:Originally one of the “Vested of the Galchutt,” this deity is the goddess of the dark elves.
+	PANTHEON:Ptolus
+Hannan
+	ALIGN:NG
+	DOMAINS:Good,Healing,Sun
+	DESC:Lord of the Sun. The worshippers of Hannan have recently rejected Gaen and her faith as not the true path to see the sun’s light. There is a strange rivalry between these two faiths now, with the religion of Hannan much less prominent than that of Gaen.
+	PANTHEON:Ptolus
+Harredda
+	DESC:Mistress of Ravens, Brought originally from the northern reaches of Nall, this goddess has a fair number of worshippers in Ptolus.
+	ALIGN:TN
+	DOMAINS:Air,Animal,Protection
+	PANTHEON:Ptolus
+Heiran
+	DESC:the Sisters of Death (Heiran and Nareis) These twin death goddesses are feared, but revered for what they might do to one in the afterlife if not appeased.
+	ALIGN:LE
+	DOMAINS:Death,Evil,Chaos,Law
+	PANTHEON:Ptolus
+Nareis
+	DESC:the Sisters of Death (Heiran and Nareis) These twin death goddesses are feared, but revered for what they might do to one in the afterlife if not appeased.
+	ALIGN:CE
+	DOMAINS:Death,Evil,Chaos,Law
+	PANTHEON:Ptolus
+Herkan
+	DESC:Goddess of the Stones A rare chaotic dwarf goddess, Herkan represents the healing energies of the earth.
+	DOMAINS:Good,Earth,Healing
+	ALIGN:CG
+	PANTHEON:Ptolus
+Inurath
+	DESC:Mistress of War, The most popular of many war deities, Inurath was originally a goddess of the people of Nall.
+	ALIGN:CN
+	DOMAINS:Fire,Strength,War
+	PANTHEON:Ptolus
+The Iron God
+	ALIGN:LN
+	DOMAINS:Earth,Fire
+#,Technology
+	DESC:A mysterious deity of the old Prustan humans and Grailwarden dwarves. No image of this god is ever seen. He is the patron of all things iron.
+	PANTHEON:Ptolus
+Jode
+	DESC:Guardian of Song, Goddess of music and creativity, her worship in Ptolus centers around the Knights of the Chord and the Jodan Templehall in Oldtown.
+	ALIGN:CG
+	DOMAINS:Air,Luck,Protection
+	PANTHEON:Ptolus
+Juranis
+	DESC:God of the Open Sea, God of the sea fearfully worshipped by sailors and sea creatures.
+	ALIGN:CN
+	DOMAINS:Chaos,Travel,Water
+	PANTHEON:Ptolus
+Kharos
+	DESC:God of Magic, An old Prustan deity, Kharos is lord of wizardly magic.
+	ALIGN:TN
+	DOMAINS:Knowledge,Magic
+	PANTHEON:Ptolus
+Kran
+	DESC:Goddess of Faults, Another old Prustan deity, Kran has a very small following.
+	ALIGN:NE
+	DOMAINS:Evil,Knowledge
+	PANTHEON:Ptolus
+The Lady
+	ALIGN:TN
+	DOMAINS:Luck,Protection,Trickery
+	DESC:This deity is one of luck and to some degree, fate. Her shrines are numerous, although she has few worshippers devoted strictly to her. She is a goddess of long shots and last chances.
+	PANTHEON:Ptolus
+Locharit
+	DESC:The Goddess of the Written Word, A religion of wizards and scholars favored by gnomes.
+	ALIGN:LG
+	DOMAINS:Knowledge,Law,Magic
+	PANTHEON:Ptolus
+Lothian
+	DESC:Lothian is a god of order, light and peace. He was once a mortal man, ascending to godhood approximately 1,000 years ago after being martyred by the then-dominant church of Castain, whom the mortal preacher Lothian decried as one of the Demon Gods.
+	ALIGN:TN
+	DEITYWEAP:Longsword
+	DOMAINS:Good,Law,Protection,Sun
+	PANTHEON:Ptolus
+Maleskari
+	DESC:God of Shades, An evil god of undead spirits and ghosts.
+	ALIGN:NE
+	DOMAINS:Evil,Death
+	PANTHEON:Ptolus
+Melann
+	DESC:Goddess of Farming, A very popular goddess. Melann’s temple is frequented more by visitors than locals.
+	ALIGN:NG
+	DOMAINS:Animal,Good,Plant
+	PANTHEON:Ptolus
+Mirresh
+	DESC:Goddess of Laughter, A minor goddess, Mirresh is popular among entertainers and children. Mirresh is the sister of Gaen.
+	ALIGN:NG
+	DOMAINS:Good,Protection,Trickery
+	PANTHEON:Ptolus
+Mocharum
+	DESC:God of Dwarves, This is the main dwarven deity, popular in particular among Grailwarden dwarves. Brother of Morachon.
+	ALIGN:LG
+	DOMAINS:Good,Law
+#,Civilization
+	PANTHEON:Ptolus
+Morachon
+	DESC:God of the Forge, A religion centered around a craftsman deity
+	ALIGN:LN
+	DOMAINS:Earth,Fire,Law
+	PANTHEON:Ptolus
+Myliesha
+	DESC:Mistress of the Wind’s Path, An elven elemental deity popular particularly with displaced elves living among humans.
+	ALIGN:CG
+	DOMAINS:Air,Good,Travel
+	PANTHEON:Ptolus
+Navashtrom
+	DESC:God of Strength and Harmony, A popular religion in Ptolus. The followers of Navashtrom are often warriors and adventurers.
+	ALIGN:NG
+	DOMAINS:Good,Protection,Strength
+	PANTHEON:Ptolus
+Ni-Gorth
+	ALIGN:TN
+	DOMAINS:Magic,Strength
+	DESC:Once a priest of Father Claw, Ni-Gorth betrayed the dragon and imprisoned him. Eventually, he ascended to godhood. First of the New Gods, he is no longer worshipped.
+	PANTHEON:Ptolus
+Niveral
+	DESC:God of Secrets, Also known as the Master of the Five Lost Lores (one of which is the Lore of the First Fire), Niveral is a minor god worshipped only by those who seek forgotten secrets and knowledge no longer known.
+	ALIGN:TN
+	DOMAINS:Fire,Knowledge
+#,Future
+	PANTHEON:Ptolus
+The Old Man 
+	ALIGN:LN
+	DOMAINS:Knowledge,Law,Trickery
+	DESC:A strange religion based around a brooding figure known only as “the Old Man” who watches over yet disdains virtually everything.
+	PANTHEON:Ptolus
+Ollom
+	DESC:God of the Keg, A minor god of alcohol and brewing popular among a handful of gnomes and humans.
+	ALIGN:CN
+	DOMAINS:Chaos,Water
+#,Civilization
+	PANTHEON:Ptolus
+Phoeboul
+	DESC:God of Dreams, An elvish god, Phoeboul is the patron of Dreta Phantas, the Dreaming City, which is now lost.
+	ALIGN:CN
+	DOMAINS:Chaos,Knowledge
+#,Sleep
+	PANTHEON:Ptolus
+Raddashin’s Eye
+	ALIGN:CG
+	DOMAINS:Healing,Plant,Water
+	DESC:Raddashin was a god of rain, slain by evil beings long ago. The god’s eye survived and still carries out his will. Many people in Ptolus revere Raddashin’s Eye.
+	PANTHEON:Ptolus
+Rajek the Wanderer
+	ALIGN:TN
+	DOMAINS:Luck,Protection,Travel
+	DESC:Originally worshipped in the far south, Rajek is a god favored by adventurers and those down on their luck. The aram also like Rajek.
+	PANTHEON:Ptolus
+Ravvan the Beast God
+	ALIGN:CE
+	DOMAINS:Animal,Evil,Strength
+	DESC:A minor god and demon prince who rules over an extradimensional hell of savagery and beasts.
+	PANTHEON:Ptolus
+Sylvanae
+	ALIGN:TN
+	DOMAINS:Animal,Magic,Plant
+	DESC:The Woodland Shaper, God of the fae, the elves, and the woods, this androgynous deity is rarely revered in Ptolus except by gnomes.
+	PANTHEON:Ptolus
+Taeshandra
+	ALIGN:NG
+	DOMAINS:Good,Plant,Travel
+	DESC:Elvish God of Travel, Watches over travelers, particularly those who pay homage at her roadside shrines, usually found only in the woods. Also worshipped by halflings.
+	PANTHEON:Ptolus
+Tardeshou
+	ALIGN:LG
+	DOMAINS:Good,Knowledge,Law
+	DESC:Goddess of Truth, Sister of Navashtrom, this deity is overshadowed in Ptolus by the worship of her better-known brother.
+	PANTHEON:Ptolus
+Teun
+	ALIGN:LN
+	DOMAINS:Law
+#TODO:must get tech domain working for teun for grailwarden for cliff
+#,Technology
+#,Civilization
+	DESC:Mother of All Machines. Another old Prustan deity, Teun is the goddess of machines and technology. She is revered by Grailwarden dwarves as well as humans.
+	PANTHEON:Ptolus
+Tevra
+	ALIGN:LN
+	DOMAINS:Healing,Law
+#,Technology
+	DESC:the Clockwork Goddess, Still another Prustan deity, Tevra is the daughter of Teun. She is thought to sleep now, but will awaken one day to help restore order to the world.
+	PANTHEON:Ptolus
+Thamus
+	ALIGN:NG
+	DOMAINS:Good,Healing,Protection
+	DESC:God of protection and defense.
+	PANTHEON:Ptolus
+Torskal
+	ALIGN:LG
+	DOMAINS:Good,Strength,War
+	DESC:This aram god of just vengeance has no temple in Ptolus. Twenty-Four Gods of the Hours (varies). Domains vary. These two dozen minor gods each represents one hour of the day, but they are all quite different in nature, reflecting how most people view the different times of day.
+	PANTHEON:Ptolus
+Unnah
+	ALIGN:LN
+	DOMAINS:Strength,War
+	DESC:Mistress of the Blades. A minor goddess of swordfighting and skill. Her extremely devout followers are called the Hussar. See the “Balacazar Crime Family” in PT3: Organizations and “The Hussar” in PT8: Adventures for more information.
+	PANTHEON:Ptolus
+Unnom
+	ALIGN:TN
+	DOMAINS:Earth,Protection
+	DESC:, Lord of Caverns, This dwarven god is also revered by other subterranean dwellers.
+	PANTHEON:Ptolus
+Watcher of the Skies
+	ALIGN:TN
+	DOMAINS:Air,Knowledge
+#,Future
+	DESC:A religion based around a deity that “knows all and sees all,” including the future. The Watcher of the Skies is an impassive observer most of the time and may be related somehow to the Old Man. A resurgence in this faith has occurred in the last year.
+	PANTHEON:Ptolus
+Ynchabolos
+	ALIGN:LN
+	DOMAINS:Knowledge,Law
+	DESC:God of Numbers, A god of logic, numbers, and order. His religion is small but wealthy and supported by influential people in the city.
+	PANTHEON:Ptolus
+Yurabbos
+	ALIGN:LN
+	DOMAINS:Law,Strength
+	DESC:Goddess of Supreme Devotion, A very minor dwarf deity of sacrifice and unswerving devotion to a cause.
+	PANTHEON:Ptolus
